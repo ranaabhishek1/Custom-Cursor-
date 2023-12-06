@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    background-color:black;
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+
+.cursor{
+    height: 17px;
+    width:17px;
+    position: absolute;
+    background-color: yellow;
+    border-radius:50%;
+    transition: all linear 0.1s;
+    mix-blend-mode:difference;
+    box-shadow: 0 0 1rem green;    
+}
+
+
+.para{
+    color: white;
+}
